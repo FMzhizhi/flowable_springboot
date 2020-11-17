@@ -1,4 +1,4 @@
-pring:
+spring:
   datasource:
     url: jdbc:mysql://localhost:3306/flowable_springboot?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
     username : root
