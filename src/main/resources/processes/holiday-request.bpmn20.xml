@@ -28,7 +28,7 @@
         </sequenceFlow>
 
         <serviceTask id="ApprovedTask" name="Approve Holiday Request"
-                     flowable:class="com.example.flowable.action.HolidayRequestApproveAction"/>
+                     flowable:class="com.zjj.flowable.action.HolidayRequestApproveAction"/>
         <sequenceFlow sourceRef="ApprovedTask" targetRef="approveEnd"/>
 
         <endEvent id="approveEnd"/>
@@ -42,7 +42,7 @@
         </sequenceFlow>
 
         <serviceTask id="RejectedTask" name="Reject Holiday Request"
-                     flowable:class="com.example.flowable.action.HolidayRequestRejectAction"/>
+                     flowable:class="com.zjj.flowable.action.HolidayRequestRejectAction"/>
         <sequenceFlow sourceRef="RejectedTask" targetRef="rejectEnd"/>
 
         <endEvent id="rejectEnd"/>
