@@ -4,3 +4,5 @@ pring:
     username : root
     password : root
     driver-class-name: com.mysql.jdbc.Driver
+flowable:
+  check-process-definitions: true
